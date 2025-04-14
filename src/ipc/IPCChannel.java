@@ -1,4 +1,6 @@
 package ipc;
 
-public class IPCChannel {
+public interface IPCChannel {
+    void send(String message);
+    String receive();
 }
